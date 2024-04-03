@@ -10,7 +10,7 @@ document.getElementById("btn_log").addEventListener("click", () => {
 });
 
 document.getElementById("btn_info").addEventListener("click", () => {
-    console.info(
+    console.debug(
         "Display same as log but mostly use for logged for info that user should have known"
     );
 });
